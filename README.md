@@ -9,7 +9,9 @@ How to use-
 Important Points-
   1) Details about config.json-
     - MQTT URL, Port and Topic (if you recieve some other data than published one, try changing topic, default topic is "sensor_data").
+    
     - Publish time interval and alert time interval in seconds (Default- 60 secs and 300 secs respectively).
+    
     - In sensors field, we can add more sensors, currently there are temperature and humidity sensors.
     - Both sensors have unit, optimal range and simulate range fields. Optimal range is the range that we need for the factory to run pefectly. Simulate range is the range that         we are simulating for testing.     
     - Simulate range is kept higher than optimal range by default so as to recieve alerts by mail as we'll recieve higher values.
