@@ -4,7 +4,7 @@ Zenatix MQTT Assignment
 How to use-
   1) First execute subscribe.py via terminal, command- python subscribe.py.
   2) Then execute publish.py via another terminal window, command- python publish.py.
-  3) You can see when the data is published in publish window, the data is recieved in subscribe window.
+  3) You can see when the data is published in publish window and when the data is recieved in subscribe window.
 
 Important Points-
   1) Details about config.json-
