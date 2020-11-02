@@ -1,0 +1,28 @@
+{
+    "mqtt" : {
+        "broker_url" : "mqtt.eclipse.org",
+        "broker_port" : 1883,
+        "topic" : "sensor_data"
+    },
+    "time_seconds" : {
+        "publish_time_interval" : 60,
+        "alert_time_interval" : 300
+    },
+    "sensors" : {
+        "temperature" : {
+            "unit" : "C",
+            "optimal_range" :  [22, 28],
+            "simulate_range" : [29, 35]
+        },
+        "humidity" : {
+            "unit" : "%",
+            "optimal_range" :  [0, 80],
+            "simulate_range" : [81, 90]
+        }
+    },
+    "alert" : {
+        "alert_mail" : "parthgoel06@gmail.com",
+        "humidity_alert_msg" : "Humidity over optimal value. Take appropriate measures ASAP.",
+        "temp_alert_msg" : "Temperature over optimal value. Take appropriate measures ASAP."
+    }
+}
